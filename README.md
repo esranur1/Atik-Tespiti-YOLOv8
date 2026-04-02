@@ -4,7 +4,7 @@ Geliştirici: Esranur Uçal
 
 Bu proje, görüntü ve videolardaki atıkları türlerine göre (Cam, Kağıt, Metal, Plastik) tespit eden, YOLOv8 tabanlı bir derin öğrenme uygulamasıdır. Proje, model eğitiminin yanı sıra kullanıcı dostu bir arayüz ile test ve görsel çıktı alma imkanı sunmaktadır.
 
-Veri Seti Oluşturma ve Ön İşleme
+## Veri Seti Oluşturma ve Ön İşleme
 Sınıflar: Modelimiz; cam, kagit, metal ve plastik olmak üzere 4 farklı geri dönüştürülebilir atık türünü tanımaktadır.
 Veri Toplama ve Çeşitlilik: Veri seti Roboflow üzerinden hazırlandı ve yaklaşık 6000 adet görüntüden oluşturulmuştur. Modelin gerçek hayat senaryolarında (farklı açılar, değişen ışık koşulları, karmaşık arka planlar ve farklı ölçekler) başarılı olması için veri çeşitliliğine maksimum özen gösterilmiştir.
 Etiketleme (Bounding Box): Görüntülerdeki atıklar yüksek doğrulukla ve tutarlı sınırlayıcı kutular (bounding box) ile etiketlenmiştir.
