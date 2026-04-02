@@ -30,6 +30,7 @@ pip install ultralytics opencv-python
 **Video Analiz Modu (video_arayuz.py):** Yine Tkinter kütüphanesiyle hazırlanan bu modül, bilgisayardan bir video seçilmesini sağlar. Seçilen video üzerinde analiz yaptıktan sonra, nesne tespiti yapılmış sonuçlandırılmış videoyu çıktı olarak doğrudan klasöre kaydeder.
 
 Dosya Yapısı
+
 **runs/detect/:** Eğitim sürecine ait performans grafikleri, matrisler ve metrikler.
 
 **best.pt:** Eğitim sonucu elde edilen en başarılı ve optimize model ağırlık dosyası.
