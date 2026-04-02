@@ -1,6 +1,6 @@
+# Akıllı Atık Tespiti ve Sınıflandırma (YOLOv8)
 Tokat Gaziosmanpaşa Üniversitesi - Bilgisayar Programcılığı
-Akıllı Atık Tespiti ve Sınıflandırma (YOLOv8)
-Geliştirici: Esranur Uçal (242703006)
+Geliştirici: Esranur Uçal 
 
 Bu proje, görüntü ve videolardaki atıkları türlerine göre (Cam, Kağıt, Metal, Plastik) tespit eden, YOLOv8 tabanlı bir derin öğrenme uygulamasıdır. Proje, model eğitiminin yanı sıra kullanıcı dostu bir arayüz ile test ve görsel çıktı alma imkanı sunmaktadır.
 
