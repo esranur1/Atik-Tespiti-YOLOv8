@@ -16,7 +16,7 @@ Projede hız ve doğruluk dengesi sebebiyle son teknoloji nesne tespiti modeller
 ## 3. Eğitim (Training) ve Performans
 Eğitim süreci Google Colab üzerinde 100 epoch olarak planlanmış ve patience=20 (erken durdurma) parametresi eklenmiştir.
 Eğitim sürecine ait tüm kayıp (loss) metrikleri, mAP, Precision ve Recall grafikleri runs/detect/ dizini altında saklanmaktadır.
-**Sonuç Analizi:** Test sonuçları incelendiğinde modelin Plastik, Metal ve Kağıt atıkları oldukça yüksek bir doğruluk oranıyla başarıyla tespit ettiği görülmüştür. Cam atıklarda ise saydamlık ve ışık yansımaları nedeniyle diğer sınıflara kıyasla daha düşük bir başarı oranı elde edilmiş olup, bu durum gelecekteki çalışmalar için bir iyileştirme alanı olarak kaydedilmiştir.
+- **Sonuç Analizi:** Test sonuçları incelendiğinde modelin Plastik, Metal ve Kağıt atıkları oldukça yüksek bir doğruluk oranıyla başarıyla tespit ettiği görülmüştür. Cam atıklarda ise saydamlık ve ışık yansımaları nedeniyle diğer sınıflara kıyasla daha düşük bir başarı oranı elde edilmiş olup, bu durum gelecekteki çalışmalar için bir iyileştirme alanı olarak kaydedilmiştir.
 
 Kullanım ve Çalışır Sistem (Arayüz Özellikleri)
 Projede tespit süreçlerini test etmek ve videoları işlemek için Python scriptleri hazırlanmıştır.
