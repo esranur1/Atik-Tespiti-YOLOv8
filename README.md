@@ -26,10 +26,10 @@ pip install ultralytics opencv-python
 
 ## 4. Uygulama Modülleri:
 **Görsel Arayüz Modu (arayuz.py):** Python'ın Tkinter kütüphanesiyle hazırlanmış özel bir pencere açar ve nesne tanımasını bu arayüz üzerinden gerçekleştirir.
+
 **Video Analiz Modu (video_arayuz.py):** Yine Tkinter kütüphanesiyle hazırlanan bu modül, bilgisayardan bir video seçilmesini sağlar. Seçilen video üzerinde analiz yaptıktan sonra, nesne tespiti yapılmış sonuçlandırılmış videoyu çıktı olarak doğrudan klasöre kaydeder.
 
 Dosya Yapısı
-
 **runs/detect/:** Eğitim sürecine ait performans grafikleri, matrisler ve metrikler.
 
 **best.pt:** Eğitim sonucu elde edilen en başarılı ve optimize model ağırlık dosyası.
