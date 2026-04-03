@@ -6,12 +6,12 @@ Bu proje, görüntü ve videolardaki atıkları türlerine göre (Cam, Kağıt, 
 
 ## 1. Veri Seti Oluşturma ve Ön İşleme
 - **Sınıflar:** Modelimiz; cam, kagit, metal ve plastik olmak üzere 4 farklı geri dönüştürülebilir atık türünü tanımaktadır.
-- **Veri Toplama ve Çeşitlilik:** Veri seti Roboflow üzerinden hazırlandı ve yaklaşık 6000 adet görüntüden oluşturulmuştur. Modelin gerçek hayat senaryolarında (farklı açılar, değişen ışık koşulları, karmaşık arka planlar ve farklı ölçekler) başarılı olması için veri çeşitliliğine maksimum özen gösterilmiştir.
+- **Veri Toplama ve Çeşitlilik:** Veri seti Roboflow üzerinden hazırlandı ve yaklaşık 5000 adet görüntüden oluşturulmuştur. Modelin gerçek hayat senaryolarında (farklı açılar, değişen ışık koşulları, karmaşık arka planlar ve farklı ölçekler) başarılı olması için veri çeşitliliğine maksimum özen gösterilmiştir.
 - **Etiketleme (Bounding Box):** Görüntülerdeki atıklar yüksek doğrulukla ve tutarlı sınırlayıcı kutular (bounding box) ile etiketlenmiştir.
 - **Ön İşleme & Ayrım:** Veri seti train (eğitim), val (doğrulama) ve test olmak üzere üç alt kümeye ayrılmıştır. Eğitim öncesi eksik veya hatalı görüntüler temizlenmiş ve modelin genelleme yeteneğini artırmak için veri artırma (augmentation) teknikleri uygulanmıştır.
 
 ## 2. Model Seçimi ve Mimari
-Projede hız ve doğruluk dengesi sebebiyle son teknoloji nesne tespiti modellerinden YOLOv8s (Small) tercih edilmiştir. Modelin temel görsel algılama yetenekleri (Pre-trained weights) kullanılmış, ancak model tamamen bana ait olan 6000 görsellik özel atık veri setiyle eğitilerek projeye özgü hale getirilmiştir. Bu Transfer Learning yöntemiyle eğitim sürecinin verimliliği artırılmıştır.
+Projede hız ve doğruluk dengesi sebebiyle son teknoloji nesne tespiti modellerinden YOLOv8s (Small) tercih edilmiştir. Modelin temel görsel algılama yetenekleri (Pre-trained weights) kullanılmıştır, model 5000 görsellik özel atık veri setiyle eğitilerek projeye özgü hale getirilmiştir. Bu Transfer Learning yöntemiyle eğitim sürecinin verimliliği artırılmıştır.
 
 ## 3. Eğitim (Training) ve Performans
 Eğitim süreci Google Colab üzerinde 100 epoch olarak planlanmış ve patience=20 (erken durdurma) parametresi eklenmiştir.
